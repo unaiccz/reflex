@@ -1,7 +1,7 @@
 
 /** @jsxImportSource @emotion/react */import { Fragment } from "react"
 import { Fragment_fd0e7cb8f9fb4669a6805377d925fba0 } from "/utils/stateful_components"
-import { HStack, Image as ChakraImage, Text, VStack } from "@chakra-ui/react"
+import { Button, HStack, Image as ChakraImage, Text, VStack } from "@chakra-ui/react"
 import "focus-visible/dist/focus-visible"
 import NextHead from "next/head"
 
@@ -15,7 +15,7 @@ export default function Component() {
   <VStack sx={{"bg": "lightblue", "height": "100vh"}}>
   <HStack>
   <Text sx={{"color": "purple", "fontSize": 25, "fontFamily": "monospace"}}>
-  {`Unai Compaired`}
+  {`Developer`}
 </Text>
 </HStack>
   <VStack>
@@ -29,6 +29,21 @@ export default function Component() {
   <Text sx={{"color": "grey", "fontSize": "2xl", "fontWeight": "bold", "fontFamily": "sans-serif"}}>
   {`👨‍💻Soy un desarrollador de aplicaciones web fullstack centrado en REACT ⚛ y python 🐍 ademas estoy constantemente renovando mis conocimientos y aprendiendo nuevas tecnologias.`}
 </Text>
+</VStack>
+  <VStack>
+  <HStack alignItems={`center`} justifyContent={`center`} sx={{"borderWidth": 2, "borderColor": "blue", "borderRadius": 10, "padding": 5, "margin": 10, "width": "100%", "backgroundColor": "grey", "shadow": 2}}>
+  <Button sx={{"color": "white", "backgroundColor": "blue", "fontSize": "2xl", "fontWeight": "bold", "fontFamily": "sans-serif", "href": "mailto:unaicc2003@gmail.com"}}>
+  {`📧 Contactame`}
+</Button>
+  <Text>
+  {`unaicc2003@gmail.com`}
+</Text>
+</HStack>
+  <HStack>
+  <Button sx={{"color": "white", "backgroundColor": "black", "fontSize": "2xl", "fontWeight": "bold", "fontFamily": "sans-serif", "href": "https://github.com/unaiccz"}}>
+  {`🐙 Github`}
+</Button>
+</HStack>
 </VStack>
 </VStack>
   <NextHead>

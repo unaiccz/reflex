@@ -1,6 +1,6 @@
 from app.components.Image import Image
 import reflex as rx
-def header():
+def header() -> rx.component:
     return rx.vstack( # Vertical stack container
         Image(), # Image
         rx.text("@unaicc", color="grey", font_size="1xl", font_weight="bold", font_family="sans-serif",),
