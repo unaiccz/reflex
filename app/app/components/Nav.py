@@ -5,4 +5,4 @@ def nav():
                  color="purple",
                  font_size=25,
                  font_family="monospace")
-    )
+    ) # End of navbar

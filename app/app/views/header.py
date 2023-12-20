@@ -9,4 +9,5 @@ def header() -> rx.component:
                 ),
         rx.text("👨‍💻Soy un desarrollador de aplicaciones web fullstack centrado en REACT ⚛ y python 🐍 ademas estoy constantemente renovando mis conocimientos y aprendiendo nuevas tecnologias."
                 , color="grey", font_size="2xl", font_weight="bold", font_family="sans-serif",),
+    height="50vh", # 50% of the viewport height
     ) # End of container
